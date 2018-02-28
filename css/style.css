@@ -1,0 +1,507 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #1f232c;
+    line-height: 1.15;
+}
+input,
+textarea {
+    font-family: 'Lato', sans-serif;
+    color: #1f232c;
+    font-size: 13px;
+}
+
+/*img {
+	/* agar img tidak melebihi element parentnya */
+	/*max-width: 100%;
+}*/
+a {
+	color: #333333;
+	text-decoration: none;
+	outline: none;
+	/* menambah efek transisi ketika dihover */ 
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+hr {
+	max-width: 100%;
+	transition: all 0.4s;
+	margin-top: 10px;
+	background-position: 20px;
+}
+#container {
+	width: 100%;
+}
+#header {
+	padding: 0 85px;padding-bottom: 40px;
+}
+#header  div ul li {
+	float: left;
+    padding: 0px 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+#header div ul {
+	float: right;
+}
+#header div ul {
+	float: left;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+#header div li div li{
+	float: left;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+.logo {
+	float: left;
+	width: 50%;
+}
+.logo ul li a {
+	color: black;
+	font-size: 39px;
+}
+.justife ul li {
+	float: right;
+	display: none;
+}
+.list {
+	float: right;
+}
+.list ul {
+	float: left;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.list ul li {
+	display: inline-block;
+	float: left;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.list ul li a {
+	color: black;
+}
+#wrapper {
+	background: #fff;
+	margin: 0 80px;
+	padding: 50px 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #aaa;
+}
+#wrapper div h1 p {
+	font-size: 40px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+#articel {
+	padding-top: 20px;
+	background: #fff;
+	margin: 0 80px;
+	padding: 50px 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 2px #aaa;
+}
+#articel div h1 p {
+	font-size: 40px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+hr {
+	width: 100%;
+	grid-template-areas-top: 90px;
+}
+h3 {
+	float: left;
+	color: #3fdede;
+	font-size: 30px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding: 10px 10px;
+	margin-bottom: 0;
+	font-weight: 500;
+	padding-top: 20px;
+}
+.pagar h4 {
+	float: right;padding-top: 24px;
+	font-family:  'Ubuntu Condensed', sans-serif;
+	color:#bfbfce;
+}
+.pagar_index h4 {
+	float: right;padding-top: 24px;
+	font-family:  'Ubuntu Condensed', sans-serif;
+	color:#bfbfce;
+}
+.isi {
+	padding-top: 30px;
+}
+.story {
+	padding: 0px 12px 2px 12px;
+	width: 6%;
+	padding-bottom: 3px;
+	margin-right: auto;
+    margin-left: 1090px;
+	background-color: blue;
+	margin-bottom: 30px;
+	font-family: 'Kavivanar', cursive;
+}
+.justife ul li {
+	font-size: 40px;
+}
+.story {
+	font-size: 20px;
+	color: white;
+}
+.tanggal {
+	float: left;
+	font-size: 20px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	padding: 10px 10px;
+	margin-bottom: 0;
+	font-weight: 500;
+	padding-right: auto;
+	padding-left: 45px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+#img {
+	margin: 0 80px;
+}
+img {
+	padding: 20px 0px 23px 0px;
+	width: 100%;
+}
+#content {
+	float: left;
+	width: 100%;
+	background: #ffffff;
+	padding: 10px 0.0%;
+}
+#articel .tanggal a {
+	color: blue;
+}
+.listing {
+	padding-bottom: 50px;
+}
+.listing li {
+	margin-top: 40px;
+	padding-right: 20px;
+}
+#tolbar hr {
+	width: 50%;
+	color-profile: white;
+	margin-top: 50px;
+}
+.listing li:first-child {
+	margin-top: 20px; /* mengurangi jumlah margin top untuk li yang pertama / paling atas */
+}
+.listing .image {
+	float: left;
+	width: 22.5%;
+	margin-right: 2.5%;
+}
+.listing .image img {
+	width: 100%;
+}
+.listing .text {
+	float: left;
+    width: 75%;
+    margin-top: 10px;
+    line-height: 2;
+    font-style: italic;
+    font-size: 18px;
+}
+.listing .text_bawa {
+	float: left;
+	width: 100%;
+	line-height: 2;
+	font-size: 18px;
+	font-style: italic;
+}
+#tolbar {
+	background-color: #7676f3;
+	text-align: center;
+	padding: 0 10px;
+}
+#menu {
+	margin: 0 80px;
+}
+#menu ul li {
+
+	font-size: 40px;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+.icon_dumai li {
+	 display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: none;
+}
+#tolbar div {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+#tolbar div ul {
+	text-align: center;
+    padding: 0px 20px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+#tolbar div ul li {
+	display: inline-block;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+}
+#tolbar div ul a {
+	color: white;
+}
+#tolbar div ul li a h1 {
+	color: black;
+}
+#tobar_bawa div p {
+	color: red;
+}
+
+.komentar {
+	padding-bottom: 50px;
+}
+.komentar li {
+	margin-top: 40px;
+	padding-right: 20px;
+}
+.komentar .garis{
+
+	margin-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	border-bottom: 1px solid #cccccc;
+	border-style: dashed;
+}
+.komentar .garis_none{
+
+	margin-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 20px;
+	border-style: dashed;
+}
+.komentar .garis_none div ul {
+    margin-left: 90px;
+    padding-top: 15px;
+}
+#tolbar hr {
+	width: 50%;
+	color-profile: white;
+	margin-top: 50px;
+}
+.komentar li:first-child {
+	margin-top: 20px; /* mengurangi jumlah margin top untuk li yang pertama / paling atas */
+}
+.komentar .image {
+	float: left;
+}
+.komentar .image img {
+	width: 75%;
+}
+.komentar .image_komentar {
+	float: left;
+}
+.komentar .image_komentar img {
+	width: 75%;
+}
+.komentar .label {
+	margin-top: 40px;
+	padding-right: 20px;;
+}
+.lable input[type="text"]:hover,.lable-2 input[type="text"]:hover,input[type="Password"]:hover,#active {
+	color:#DCDCDC;
+	border-left:6px solid#40A46F;
+}
+.lable-2 input[type="text"],input[type="Password"] { 
+	padding: 14px;
+	width: 70%;
+	height: 85px;
+	border-radius: 26px;
+	font-size: 2em;
+	margin: 18px 7px;
+	border:none;
+	color: #080808;
+	cursor: pointer;
+	background: none;
+	outline: none;
+	font-weight: 700;
+	font-family: 'Oxygen', sans-serif;
+	background: #ded6d6;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	border-left: 6px solid #fff;
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+}
+.lable-2 ul li {
+	width: 100%;
+}
+.submit{
+	padding:5px 4px;
+	text-align: center;
+}
+input[type=submit] {
+	padding: 17px 30px;
+	color: #fff;
+	float: right;
+	font-family: 'Oxygen', sans-serif;
+	background: #40A46F;
+	border: 1px solid #40A46F;
+	cursor: pointer;
+	font-size: 18px;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	outline:none;
+	width: 100%;
+	-webkit-appearance: none;
+}
+.submit input[type=submit]:hover {
+	 background:#07793D;
+	 border:1px solid #07793D;
+}
+.list_none {
+}
+.list_none ul {
+	float: left;
+}
+.list_none ul li {
+    padding: 5px 20px;
+}
+.button {
+	float: right;
+}
+.button ul {
+	left: 
+}
+.openBtn:hover {
+    background: #bbb;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: #4fa02d;
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+    list-style: none;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 70%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}

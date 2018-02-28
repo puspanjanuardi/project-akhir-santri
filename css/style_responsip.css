@@ -1,0 +1,248 @@
+/*......................Resposip.......................*/
+@media only screen and (max-width: 465px) {
+	html {
+		width:465px; 
+	}
+	.list ul li {
+		display: none;
+	}
+	.justife ul li{
+		display: inline-block;
+		float: right;
+	}
+	.logo ul li a {
+	color: black;
+	font-size:30px;
+	}
+	#header {
+		padding: 0 7px;
+	}
+	#header{
+		width: 100%;
+		height: auto;
+		color: red;
+	}
+	#header div ul {
+		text-align: center;
+		float: left;
+	}
+	#wrapper div h1 p {
+		font-size: 25px;
+		text-align: left;
+	}
+	h4 p {
+		font-size: 15px;
+	}
+	body {
+		width: 100%;
+	}
+	#wrapper {
+		margin: 0px 8px;
+		padding: 10px 20px;
+	}
+	#articel {
+		margin:  0px 8px;
+		padding: 10px 20px;
+	}
+	#articel div h1 p {
+		font-size: 25px;
+		text-align: left;
+	}
+	.tanggal {
+		font-size: 15px;
+	}
+	#img {
+		margin: 0px 8px;
+	}
+	img {
+		padding: 20px 0px 23px 0px;
+		width: 100%;
+	}
+	.story {
+    font-size: 15px;
+    color: white;
+	}
+	.story {
+    padding: 1px 37px 3px 0px;
+    width: 3%;
+    margin-left: 386px;
+    margin-bottom: 2px;
+   	}
+}
+@media only screen and (max-width: 480px) {
+	html {
+		width:465px; 
+	}
+	.list ul li {
+		display: none;
+	}
+	.justife ul li{
+		display: inline-block;
+		float: right;
+	}
+	.logo ul li a {
+		color: black;
+		font-size:30px;
+	}
+	#header {
+		padding: 0 7px;
+	}
+	#header{
+		width:465px;
+		height: auto;
+		color: red;
+	}
+	#header div ul {
+		text-align: center;
+		float: left;
+	}
+	#wrapper div h1 p {
+		font-size: 25px;
+		text-align: left;
+	}
+	h4 p {
+		font-size: 15px;
+	}
+	body {
+		width: 100%;
+	}
+	#wrapper {
+		margin: 0px 8px;
+		padding: 10px 20px;
+	}
+	#articel {
+		margin:  0px 8px;
+		padding: 10px 20px;
+	}
+	#articel div h1 p {
+		font-size: 25px;
+		text-align: left;
+	}
+	.tanggal {
+		font-size: 20px;
+		padding-top: 2px;
+	}
+	#img {
+		margin: 0px 8px;
+	}
+	img {
+		padding: 20px 0px 23px 0px;
+		width: 100%;
+	}
+	.story {
+    	font-size: 15px;
+    	color: white;
+	}
+	.story {
+    	padding: 1px 37px 3px 0px;
+    	width: 3%;
+    	margin-left: 386px;
+    	margin-bottom: 2px;
+   	}
+	#tolbar {
+		text-align: left;
+		padding: 0 10px;
+	}
+	#tolbar div ul li a h1 {
+		font-size: 25px;
+	}
+	#tolbar div ul {
+		font-size: 15px;
+	}
+	#tolbar div ul li {
+		padding: 5px 10px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.listing .text {
+		float: left;
+		width: 400px;
+	    line-height: 2;
+	    font-style: italic;
+	    font-size: 15px;
+	}
+	.listing .image {
+		width: 70%;
+		padding: 0px 10px 3px 55px;
+	}
+	.listing .text_bawa {
+		float: left;
+		width: 400px;
+	    line-height: 2;
+	    font-style: italic;
+	    font-size: 15px;
+	}
+	.pagar h4 {
+		float: left;
+		font-size: 15px;
+	}
+	.pagar_index h4 {
+		float: right;
+		font-size: 15px;
+	}
+	.icon_dumai li {
+    	display: inline-block;
+    	padding: 1px 7px;
+    	cursor: pointer;
+    	display: inline-block;
+	}
+	.komentar .image img  {
+		width: 100%;
+	}
+	.lable-2 input[type="text"],input[type="Password"] { 
+		width: 65%;
+		height: 40px;
+		border-radius: 2px;
+		font-size: 2em;
+		font-size: 15px;
+		}
+	.komentar .image {
+		width: 20%;
+	}
+	.komentar .image_komentar {
+		width: 20%;
+	}
+	.komentar .image_komentar img {
+		width: 100%;
+	}
+	.read h3 {
+		font-size: 20px;
+		float: left;
+	}
+	.komentar .label {
+		width: 65%;
+		border-radius: 2px;
+		font-size: 2em;
+		font-size: 15px;
+	}
+	.komentar .garis_none div ul {
+	    margin-right: auto;
+	    margin-left: 90px;
+	    padding-top: 1px;
+	}
+	#tolbar div {
+		max-width: 480px;
+	}
+	#tolbar div p {
+		font-size: 20px;
+	}
+	input[type=submit] {
+		padding: 17px 30px;
+		color: #020202;
+		float: right;
+		font-family: 'Oxygen', sans-serif;
+		background: #dde4e0;
+		border: 1px solid #dde4e0;
+		border-radius:3px;
+		cursor: pointer;
+		font-size: 18px;
+		transition: all 0.5s ease-out;
+		-webkit-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-ms-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		outline:none;
+		width: 100%;
+		-webkit-appearance: none;
+	}
+}
